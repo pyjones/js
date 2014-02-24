@@ -17,7 +17,7 @@ var checkUserChoice = function() {
 };
 
 var makeComputerChoice = function() {
-    return choices[Math.floor(Math.random() * 3)];
+    return choices[Math.floor(Math.random() * choices.length)];
 }
 
 var compare = function(a, b) {
