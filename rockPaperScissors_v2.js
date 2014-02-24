@@ -26,7 +26,7 @@ var compare = function(a, b) {
     } else if (beats[a].indexOf(b) !== -1) {
         return a + ' beats ' + b;
     } else {
-        return a + ' does not beats ' + b;
+        return a + ' does not beat ' + b;
     }
 };
 
