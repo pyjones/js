@@ -9,7 +9,7 @@ var beats = {
 
 
 var checkUserChoice = function() {
-    var choice = prompt("Do you choose rock, paper or scissors?");
+    var choice = prompt("Do you choose rock, paper, scissors, lizard or spock?");
     if (choices.indexOf(choice) == -1) {
         choice = checkUserChoice();
     }
